@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;   
+        }
+
+        #box {
+            background-color: blue;
+            padding: 10px 10px 10px 10px;
+            border: 10px solid black;
+            margin-top: 50px;
+            width: 200px;
+            height: 100px;overflow: auto;
+
+        }
+
+        #content {
+            background-color: aqua;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus tristique dui sit amet volutpat. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras placerat urna vitae elit venenatis finibus.
+            Nam non enim metus. Donec aliquam dui nisi, sed dignissim nisi accumsan a. Maecenas tempus nibh pulvinar congue aliquam.
+            Suspendisse ut tincidunt risus, non pretium libero. Nunc ut ante vel erat viverra dictum. Phasellus purus mauris, malesuada sit amet auctor consequat, pharetra eu massa. 
+            Sed eget sodales nibh, vel dapibus urna. Integer luctus libero vel vehicula viverra. In sodales sollicitudin quam non hendrerit. 
+            Duis tellus tellus, egestas quis consequat vitae, sollicitudin sit amet tortor. Praesent convallis placerat elementum. Suspendisse volutpat laoreet nibh id imperdiet.
+            Fusce egestas commodo lacus, eget facilisis massa scelerisque auctor.
+        </div>
+    </div>
+</body>
+</html>
